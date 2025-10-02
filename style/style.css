@@ -17,12 +17,14 @@
 body {
     font-family: "Barlow Semi Condensed", sans-serif;
     background-color: var(--Grey-100);
-    margin: 1rem;
     font-weight: 400;
-}
-
-.visually-hidden {
-    visibility: hidden;
+    margin: 0;
+    flex-direction: column; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 1rem;
 }
 
 .card-container {
